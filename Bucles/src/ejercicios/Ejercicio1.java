@@ -17,11 +17,11 @@ public class Ejercicio1 {
 		// Le pido al usuario que introduzca un número:
 		System.out.println(
 				"Introduzca un número entero positivo para sumarlo. Introduzca un valor negativo para salir del programa. ");
+		
 		num = sc.nextInt();
-
-		// Mientras el usuario me siga introduciendo valores positivos los iré sumando
-		// Saldré del bucle cuando el usuario introduzca un valor negativo
 		while (num >= 0) {
+			
+			
 			// Le añado a la variable el valor de num
 			suma += num;
 
