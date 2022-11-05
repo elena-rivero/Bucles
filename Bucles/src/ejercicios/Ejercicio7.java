@@ -24,6 +24,9 @@ public class Ejercicio7 {
 			if(numero == numeroOrdenador) { 
 				System.out.println("¡¡HAS ACERTADO!!");
 				break; // Si hemos acertado nos salimos del bucle
+			} else if (numero == -1) {
+				System.out.println("TE HAS RENDIDO... :(");
+				break; // Si el usuario se rinde nos salimos del bucle
 			} else if (numero > numeroOrdenador) {
 				System.out.println("El número que has introducido es mayor");
 			} else
