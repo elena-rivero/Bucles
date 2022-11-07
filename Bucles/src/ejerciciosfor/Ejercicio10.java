@@ -1,6 +1,6 @@
-package ejercicios;
+package ejerciciosfor;
 
-public class Cuenta {
+public class Ejercicio10 {
 
 	public static void main(String[] args) {
 		int a=3, b=10;
