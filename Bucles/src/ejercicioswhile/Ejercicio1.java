@@ -1,4 +1,4 @@
-package ejercicios;
+package ejercicioswhile;
 import java.util.Scanner;
 
 public class Ejercicio1 {
