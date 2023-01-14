@@ -7,7 +7,7 @@ public class Ejercicio7 {
 
 	public static void main(String[] args) {
 		// Creo una variable donde se guardará el número a adivinar
-		int numeroOrdenador = (int) (Math.random()*100+1);
+		int numeroOrdenador = (int) ((Math.random()*100)+1);
 		
 		// Variable donde almacenaré el número introducido por el usuario
 		int numero;
